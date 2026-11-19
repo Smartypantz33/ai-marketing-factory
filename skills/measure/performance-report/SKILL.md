@@ -20,7 +20,7 @@ BUILD: The client brief's goals, the reporting period, and the data (exported fi
 BUILD: Numbered steps. Think about: checking the data is complete, comparing against goals, calculating in code or a spreadsheet rather than estimating, picking the 3 numbers that matter, wins, misses and plain-language explanations.
 
 ## 3. Output template
-BUILD: Base it on `templates/reporting-template.md`. Save path: `outputs/<client-slug>/YYYY-MM-DD-report-<period>.md`
+BUILD: Base it on `templates/reporting-template.md`. Save path: `outputs/<client-slug>/reports/YYYY-MM-DD-report-<period>.md`
 
 ## 4. Guardrail check
 BUILD: e.g., no numbers that aren't in the data, no cherry-picking, no personal data about individual customers, flag small samples. Always include: follows `context/guardrails.md`.

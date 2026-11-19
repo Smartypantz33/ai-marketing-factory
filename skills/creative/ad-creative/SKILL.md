@@ -20,7 +20,7 @@ BUILD: Which context files? Platform, objective, budget, audience, landing page?
 BUILD: Numbered steps. Think about: 2–3 concepts tied to message-house pillars, copy variants per concept, platform character limits, a visual brief and a ready-to-paste prompt for your image tool, and what each variant tests.
 
 ## 3. Output template
-BUILD: Per concept: pillar · persona · headline variants · primary text variants · CTA · visual brief · image prompt · what we're testing. Save path: `outputs/<client-slug>/YYYY-MM-DD-ads-<description>.md`
+BUILD: Per concept: pillar · persona · headline variants · primary text variants · CTA · visual brief · image prompt · what we're testing. Save path: `outputs/<client-slug>/<Asset ID>/<Asset ID>-copy-vN.md`, plus `<Asset ID>-sources.md` (rules: `outputs/README.md`)
 
 ## 4. Guardrail check
 BUILD: e.g., platform ad policies, special ad categories, AI-generated imagery disclosure, no realistic fake people presented as customers. Always include: follows `context/guardrails.md`.

@@ -43,7 +43,7 @@ If a required input is still a placeholder, stop and tell the user which file is
 
 ## 3. Output template
 
-Save as `outputs/<client-slug>/YYYY-MM-DD-research-personas.md`
+Save as `outputs/<client-slug>/strategy/research-personas/YYYY-MM-DD-research-personas.md`
 
 ```markdown
 Station: research-personas

@@ -17,10 +17,13 @@ You are the production team of a one-person marketing agency. This repo is the a
 
 ## Saving output
 
-- Save to `/outputs/<client-slug>/YYYY-MM-DD-<station>-<short-description>.md`
-  Example: `/outputs/rya-rightsizing/2026-11-12-social-week-1.md`
+- Follow the folder and naming rules in `/outputs/README.md`. In short:
+  - Strategy stations: `/outputs/<client-slug>/strategy/<station>/YYYY-MM-DD-<station>-<short-description>.md`
+  - Measure stations: `/outputs/<client-slug>/reports/YYYY-MM-DD-<report|insights|brief>-<period>.md`
+  - Production stations: one folder per Asset ID from `/calendar/content-calendar.csv`, e.g. `/outputs/rya-rightsizing/<Asset ID>/<Asset ID>-copy-v1.md` plus `<Asset ID>-sources.md`
+- The live calendar is `/calendar/content-calendar.csv`. When an asset is Done, set its Status and paste its folder link into Output link.
 - At the top of every output file, include: station name, date, which context files were used, and review status (`DRAFT – awaiting review` until the human approves).
-- Never overwrite an existing output. Create a new version (`-v2`) instead.
+- Never overwrite an existing output. Create a new version (`-v2`) instead. Only the approved version goes in the team repo; drafts stay in your personal repo.
 
 ## The review gate
 

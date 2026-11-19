@@ -20,7 +20,7 @@ BUILD: Which context files? Which calendar rows? Which platforms does the client
 BUILD: Numbered steps. Think about: hook first line, platform differences (length, hashtags, format), one persona and one pillar per post, CTA, and a visual brief for the creative line.
 
 ## 3. Output template
-BUILD: One block per post: platform · date · hook · caption · hashtags · CTA · visual brief · alt text. Save path: `outputs/<client-slug>/YYYY-MM-DD-social-<description>.md`
+BUILD: One block per post: platform · date · hook · caption · hashtags · CTA · visual brief · alt text. Save path: `outputs/<client-slug>/<Asset ID>/<Asset ID>-copy-vN.md`, plus `<Asset ID>-sources.md` (rules: `outputs/README.md`)
 
 ## 4. Guardrail check
 BUILD: e.g., no invented testimonials, no identifiable customer stories without permission, AI disclosure where required, accessible alt text. Always include: follows `context/guardrails.md`.

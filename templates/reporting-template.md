@@ -1,6 +1,6 @@
 # Performance report
 
-Save as `outputs/<client-slug>/YYYY-MM-DD-report-<period>.md`. Write for the client, not for marketers.
+Save as `outputs/<client-slug>/reports/YYYY-MM-DD-report-<period>.md`. Write for the client, not for marketers.
 
 **Client:** · **Period:** · **Prepared by:** · **Status:** DRAFT – awaiting review
 

@@ -20,7 +20,7 @@ BUILD: Which context files? Platform, length, who's on camera (client, voiceover
 BUILD: Numbered steps. Think about: a 2-second hook, one idea per video, a beat-by-beat script, on-screen text and captions, a shot list, music or sound notes, and a prompt for an AI video tool if used.
 
 ## 3. Output template
-BUILD: Per video: platform · length · hook · script table (time · visual · audio · on-screen text) · shot list · caption · AI video prompt. Save path: `outputs/<client-slug>/YYYY-MM-DD-video-<description>.md`
+BUILD: Per video: platform · length · hook · script table (time · visual · audio · on-screen text) · shot list · caption · AI video prompt. Save path: `outputs/<client-slug>/<Asset ID>/<Asset ID>-copy-vN.md`, plus `<Asset ID>-sources.md` (rules: `outputs/README.md`). The MP4 goes to OneDrive; the repo folder holds `<Asset ID>-video-link.md`, a thumbnail and captions.
 
 ## 4. Guardrail check
 BUILD: e.g., consent for anyone filmed, no AI likeness of real people, AI disclosure, captions for accessibility, music licensing. Always include: follows `context/guardrails.md`.

@@ -20,7 +20,7 @@ BUILD: Approved insights, the client's priorities for next period, upcoming date
 BUILD: Numbered steps. Think about: one main objective, measurable goals, which personas and pillars to focus on, which stations to run, deadlines, and what to test this time.
 
 ## 3. Output template
-BUILD: Base it on `templates/client-brief.md`. Save path: `outputs/<client-slug>/YYYY-MM-DD-brief-<period>.md`
+BUILD: Base it on `templates/client-brief.md`. Save path: `outputs/<client-slug>/reports/YYYY-MM-DD-brief-<period>.md`
 
 ## 4. Guardrail check
 BUILD: e.g., goals the client can actually measure, budget and timelines confirmed by the client. Always include: follows `context/guardrails.md`.

@@ -20,7 +20,7 @@ BUILD: Which context files? Email type (one-off or sequence)? Who's on the list 
 BUILD: Numbered steps. Think about: one goal per email, subject line options to test, preview text, length, one clear CTA, and timing between emails in a sequence.
 
 ## 3. Output template
-BUILD: One block per email: send day · subject (3 options) · preview text · body · CTA · goal. Save path: `outputs/<client-slug>/YYYY-MM-DD-email-<description>.md`
+BUILD: One block per email: send day · subject (3 options) · preview text · body · CTA · goal. Save path: `outputs/<client-slug>/<Asset ID>/<Asset ID>-copy-vN.md`, plus `<Asset ID>-sources.md` (rules: `outputs/README.md`)
 
 ## 4. Guardrail check
 BUILD: e.g., CASL consent and unsubscribe requirements, no false urgency, no misleading subject lines. Always include: follows `context/guardrails.md`.

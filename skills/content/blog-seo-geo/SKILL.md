@@ -20,7 +20,7 @@ BUILD: Which context files? Target question or keyword? Location to target? Inte
 BUILD: Numbered steps. Think about: the real question the persona types or asks an AI, a direct answer near the top, clear headings, an FAQ block, local signals, meta title and description, and internal links.
 
 ## 3. Output template
-BUILD: Include: target question · meta title · meta description · URL slug · article · FAQ · suggested internal links · schema notes. Save path: `outputs/<client-slug>/YYYY-MM-DD-blog-<slug>.md`
+BUILD: Include: target question · meta title · meta description · URL slug · article · FAQ · suggested internal links · schema notes. Save path: `outputs/<client-slug>/<Asset ID>/<Asset ID>-copy-vN.md`, plus `<Asset ID>-sources.md` (rules: `outputs/README.md`)
 
 ## 4. Guardrail check
 BUILD: e.g., every fact is sourced, no medical, legal or financial advice beyond the client's expertise, no keyword stuffing. Always include: follows `context/guardrails.md`.
