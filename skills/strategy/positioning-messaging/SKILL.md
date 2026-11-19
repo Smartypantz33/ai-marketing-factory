@@ -44,7 +44,7 @@ If personas are still a placeholder, stop and recommend running `research-person
 
 ## 3. Output template
 
-Save as `outputs/<client-slug>/YYYY-MM-DD-positioning-messaging.md`
+Save as `outputs/<client-slug>/strategy/positioning-messaging/YYYY-MM-DD-positioning-messaging.md`
 
 ```markdown
 Station: positioning-messaging

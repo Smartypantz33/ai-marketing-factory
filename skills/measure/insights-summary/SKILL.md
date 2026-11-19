@@ -20,7 +20,7 @@ BUILD: The approved performance report, client feedback, your own review notes. 
 BUILD: Numbered steps. Think about: what worked and why, what didn't and why, which persona, pillar or channel the evidence points to, and proposing exact edits to `/context` files and station SKILL.md files.
 
 ## 3. Output template
-BUILD: Include: key learnings · evidence for each · proposed context changes (file · current text · new text) · proposed station changes. Save path: `outputs/<client-slug>/YYYY-MM-DD-insights-<period>.md`
+BUILD: Include: key learnings · evidence for each · proposed context changes (file · current text · new text) · proposed station changes. Save path: `outputs/<client-slug>/reports/YYYY-MM-DD-insights-<period>.md`
 
 ## 4. Guardrail check
 BUILD: e.g., learnings are backed by evidence, not one-off results; proposed context changes go through the team repo. Always include: follows `context/guardrails.md`.

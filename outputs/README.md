@@ -1,30 +1,29 @@
 # Outputs
 
-Everything the factory produces lives here, one folder per client.
+Everything the factory produces lives here, in one folder per client. The work order is `calendar/content-calendar.csv`: one row per asset.
 
 ```
 outputs/
 └── rya-rightsizing/
-    ├── 2026-11-05-research-personas.md
-    ├── 2026-11-12-positioning-messaging.md
-    ├── 2026-11-12-content-calendar-december.md
-    └── 2026-11-19-social-week-1.md
+    ├── strategy/            research-personas/, positioning-messaging/, marketing-plan/, content-calendar/
+    ├── reports/             performance report, insights summary, next-cycle brief
+    └── <Asset ID>/          one folder per calendar row, e.g. C1-A01/ or S1/
+        ├── <Asset ID>-copy-v2.md        copy, caption, alt text, CTA
+        ├── <Asset ID>-slide-1.png       one image per slide or frame
+        └── <Asset ID>-sources.md        prompts, tools, image sources, Canva link
 ```
 
 ## Naming
 
-`YYYY-MM-DD-<station>-<short-description>.md`
+- **Strategy and reports: date first.** `YYYY-MM-DD-<station>-<short-description>.md`, with `-v2`, `-v3` for revisions.
+- **Assets: Asset ID first**, written exactly as it appears in your calendar. `<Asset ID>-<part>-vN.<ext>` for versioned files, `<Asset ID>-<part>.<ext>` for the rest.
+- Lowercase, hyphens, no spaces (Asset IDs keep their capitals).
+- Only the approved version goes here. Drafts stay in your personal repo.
 
-- Lowercase, hyphens, no spaces.
-- Never overwrite. A revision gets `-v2`, `-v3`.
-- Images, video and other files from external tools go in the same client folder with the same date-first naming.
+## Video
+
+MP4 files go in OneDrive: `Rya Video Assets – Fall 2026 / Group ## / <Asset ID>/`. The repo folder holds the script, captions, a thumbnail, `<Asset ID>-video-link.md` and `<Asset ID>-sources.md`.
 
 ## Status line
 
-The top of every output says its status:
-- `DRAFT – awaiting review`
-- `APPROVED – YYYY-MM-DD`
-
-## Commit messages
-
-Describe the work, e.g. `Add Rya social week 1 (approved)` or `Revise positioning v2 after client feedback`. Your commit history is your proof of work.
+Every output starts with `DRAFT – awaiting review`, or `APPROVED – YYYY-MM-DD`.

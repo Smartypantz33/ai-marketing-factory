@@ -20,7 +20,7 @@ BUILD: Which `/context` files does this station need? What must the user tell yo
 BUILD: Write numbered steps. Think about: how many pieces per channel per week, how pillars rotate, how each piece maps to a persona and a funnel stage, and where key dates fall.
 
 ## 3. Output template
-BUILD: Design the calendar's shape. A table is a good start: date · channel · pillar · persona · format · working title · CTA · station that produces it. Include a save path: `outputs/<client-slug>/YYYY-MM-DD-content-calendar-<month>.md`
+BUILD: Design the calendar's shape. A table is a good start: date · channel · pillar · persona · format · working title · CTA · station that produces it. Include a save path: `outputs/<client-slug>/strategy/content-calendar/YYYY-MM-DD-content-calendar-<month>.md` (the live work order is `calendar/content-calendar.csv`)
 
 ## 4. Guardrail check
 BUILD: What could go wrong in a plan? (e.g., sensitive dates, over-promising promotions, posting volume the client can't sustain.) Always include: follows `context/guardrails.md`.

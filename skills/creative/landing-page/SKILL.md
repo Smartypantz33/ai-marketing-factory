@@ -20,7 +20,7 @@ BUILD: Which context files? Campaign, traffic source, the one action we want, an
 BUILD: Numbered steps. Think about: a headline that matches the ad, section order (problem → solution → proof → how it works → FAQ → CTA), objection handling for the persona's fears, a short form, and a build brief for your page tool.
 
 ## 3. Output template
-BUILD: Include: page goal · section-by-section copy · form fields · CTA text · meta title and description · build brief. Save path: `outputs/<client-slug>/YYYY-MM-DD-landing-<description>.md`
+BUILD: Include: page goal · section-by-section copy · form fields · CTA text · meta title and description · build brief. Save path: `outputs/<client-slug>/<Asset ID>/<Asset ID>-copy-vN.md`, plus `<Asset ID>-sources.md` (rules: `outputs/README.md`)
 
 ## 4. Guardrail check
 BUILD: e.g., privacy notice for anything the form collects, only real proof points, accessible contrast and alt text. Always include: follows `context/guardrails.md`.
